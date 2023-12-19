@@ -24,7 +24,7 @@ public class WebMvcConfig {
 		return vr;
 	}
 
-	@Bean
+	/*@Bean
 	DriverManagerDataSource getDataSource() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 		ds.setDriverClassName("com.mysql.jdbc.Driver");
@@ -39,4 +39,7 @@ public class WebMvcConfig {
 	public StudentDao getUserDao() {
 		return new StudentDaoImpl(getDataSource());
 	}
+
+	*/
+
 }
